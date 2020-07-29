@@ -1,13 +1,13 @@
 {
   "name": "dq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ffp":"./bin/index.js"
+    "dq": "./bin/index.js"
   },
   "author": "",
   "license": "ISC"
