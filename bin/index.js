@@ -9,7 +9,7 @@ const dqHttp = require("../core/http.js")
 
 function help() {
     console.info("")
-    console.info("Usage: ffp COMMAND ARGUMENTS")
+    console.info("Usage: dq COMMAND ARGUMENTS")
     console.info("")
     console.info("Commands:")
     console.info("  photo                          变更文件名称")

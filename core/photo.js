@@ -15,7 +15,7 @@ function timestampToTime(timestamp) {
 
 function fileDisplay() {
     let filePath = process.cwd()
-    fs.appendFile(filePath + "/log.js", new Date() + "\r\n", (error) => {})
+    fs.appendFile(filePath + "/photoLog.js", new Date() + "\r\n", (error) => {})
     fs.readdir(filePath, function (err, files) {
         if (err) {
             console.warn(err)
